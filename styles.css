@@ -36,3 +36,18 @@ ul{
     text-align: center;
    }
 
+   .images{
+    display: flex;
+    gap: 16px;
+    padding: 75px;
+    justify-content: space-around;
+   }
+
+   .img{
+    background-color: blue;
+    height: 200px;
+     width: 200px;   
+    align-content: center;
+    text-align: center;
+   }
+
