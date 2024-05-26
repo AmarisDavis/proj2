@@ -5,7 +5,7 @@
 .header{
     background-color: #1F2937;
     color: white;
-    padding: 16px;
+    padding: 8px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -13,7 +13,7 @@
 
 .title{
     font-size: 30px;
-    font-weight: bold;  
+    font-weight: bold; 
 }
 
 
@@ -21,33 +21,102 @@ ul{
     list-style: none;
     display: flex;
     gap: 8px;
+    font-size: 18px;
 }
    .main{
     background-color: #1F2937;
     color: white;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-around;
-    padding: 100px;
+    padding: 50px;
+    gap: 8px;
    } 
 
    .titlebox{
-    max-width: 400px;
-    text-align: center;
+    height: 150px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
    }
+
 
    .images{
     display: flex;
-    gap: 16px;
-    padding: 75px;
-    justify-content: space-around;
+    padding: 100px;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 50px;
+   }
+   .image{
+    background-color: blue;
+    height: 250px;
+    width: 450px; 
+    text-align: center;
+    align-content: center;
    }
 
    .img{
     background-color: blue;
-    height: 200px;
-     width: 200px;   
+    height: 150px;
+    width: 150px;   
     align-content: center;
     text-align: center;
    }
+
+   .mtitle{
+    font-weight: bold;
+    font-size: 30px;
+   }
+
+   .titles{
+    text-align: center; 
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+   }
+
+   .third{
+     background-color: lightgrey;
+     display: flex; 
+     padding: 60px;
+     font-size: 20px;
+     height: 90px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+   }
+
+   .final{
+    padding: 80px;
+   }
+
+   h4 , h5{
+    margin: 0%;
+   }
+   h5{
+    margin-top: 1%;
+   }
+
+   .bhold{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+    max-width: 700px;
+    height: 100px;
+    margin: auto;
+   }
+
+   .butt{
+    background-color: blue;
+    border: 2px solid white;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+   }
+   
+
 
